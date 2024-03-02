@@ -1,0 +1,3 @@
+# Project exclude paths
+/market-app/target/
+/market-types/target/
