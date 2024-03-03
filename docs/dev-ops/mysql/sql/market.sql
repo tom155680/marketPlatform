@@ -110,3 +110,28 @@ INSERT INTO `strategy_rule` VALUES (13, 100001, NULL, 1, 'rule_weight', '6000,10
 INSERT INTO `strategy_rule` VALUES (14, 100001, NULL, 1, 'rule_blacklist', '1', '黑名单抽奖，积分兜底', '2023-12-09 12:59:45', '2023-12-09 13:42:23');
 
 SET FOREIGN_KEY_CHECKS = 1;
+
+-- ----------------------------
+-- Table structure for award
+-- ----------------------------
+DROP TABLE IF EXISTS `award`;
+CREATE TABLE `award`  (
+      `id` int NOT NULL AUTO_INCREMENT COMMENT '自增ID',
+      `award_id` int NOT NULL COMMENT '抽奖奖品ID',
+      `award_key` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '奖品对接标识',
+      `award_config` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '奖品配置信息',
+      `award_desc` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '奖品内容描述',
+      `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间',
+      `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+      PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of award
+-- ----------------------------
+INSERT INTO `award` VALUES (1, 101, 'user_credit_random', '1,100', '用户积分', '2024-03-03 13:22:17', '2024-03-03 13:22:21');
+INSERT INTO `award` VALUES (2, 102, 'openai_use_count', '5', 'Open AI增加使用次数', '2024-03-03 13:23:25', '2024-03-03 13:23:28');
+INSERT INTO `award` VALUES (3, 103, 'open_use_conut', '10', 'Open AI增加使用次数', '2024-03-03 13:24:23', '2024-03-03 13:24:23');
+INSERT INTO `award` VALUES (4, 104, 'openai_model', 'gpt-4', 'Open AI增加模型', '2024-03-03 13:25:00', '2024-03-03 13:25:00');
+INSERT INTO `award` VALUES (5, 105, 'openai_model', 'dall-e-2', 'Open AI增加模型', '2024-03-03 13:25:30', '2024-03-03 13:25:30');
+

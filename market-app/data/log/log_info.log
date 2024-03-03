@@ -1,0 +1,15 @@
+24-03-03.14:18:11.425 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_371 on DESKTOP-GV169D4 with PID 17568 (started by 王永健 in D:\workspace\IDEASpace\marketPlatform\market-app)
+24-03-03.14:18:11.427 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
+24-03-03.14:18:14.826 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 4.293 seconds (JVM running for 6.007)
+24-03-03.14:18:15.153 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-03.14:18:16.970 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-03.14:18:17.215 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-03.14:18:17.257 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-03.14:18:47.717 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_371 on DESKTOP-GV169D4 with PID 7192 (started by 王永健 in D:\workspace\IDEASpace\marketPlatform\market-app)
+24-03-03.14:18:47.718 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
+24-03-03.14:18:49.495 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 2.146 seconds (JVM running for 2.826)
+24-03-03.14:18:49.709 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-03.14:18:50.669 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-03.14:18:51.058 [main            ] INFO  AwardDaoTest           - 测试结果: [{"awardConfig":"1,100","awardDesc":"用户积分","awardId":101,"awardKey":"user_credit_random"},{"awardConfig":"5","awardDesc":"Open AI增加使用次数","awardId":102,"awardKey":"openai_use_count"},{"awardConfig":"10","awardDesc":"Open AI增加使用次数","awardId":103,"awardKey":"open_use_conut"},{"awardConfig":"gpt-4","awardDesc":"Open AI增加模型","awardId":104,"awardKey":"openai_model"},{"awardConfig":"dall-e-2","awardDesc":"Open AI增加模型","awardId":105,"awardKey":"openai_model"}]
+24-03-03.14:18:51.067 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-03.14:18:51.080 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
