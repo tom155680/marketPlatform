@@ -21,6 +21,7 @@
       <module name="market-infrastructure" options="-parameters" />
       <module name="market-trigger" options="-parameters" />
       <module name="market-types" options="-parameters" />
+      <module name="marketPlatform" options="" />
     </option>
   </component>
 </project>
