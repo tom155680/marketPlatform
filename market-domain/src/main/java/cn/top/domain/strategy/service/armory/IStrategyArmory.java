@@ -11,7 +11,6 @@ public interface IStrategyArmory {
      * 初始化概率查找表
      * @param StrategyId
      */
-    void assembleLotteryStrategy(Long StrategyId);
+    boolean assembleLotteryStrategy(Long StrategyId);
 
-    Integer getRandomAwardId(Long strategyId);
 }

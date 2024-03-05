@@ -12,5 +12,16 @@ import java.util.List;
  */
 @Mapper
 public interface IStrategyRuleDao {
+    /**
+     * 查询策略规则集合
+     * @return
+     */
     List<StrategyRule> queryList();
+
+    /**
+     * 根据策略ID和策略规则模型查询对象
+     * @param strategyRule
+     * @return
+     */
+    StrategyRule queryStrategyRule(StrategyRule strategyRule);
 }

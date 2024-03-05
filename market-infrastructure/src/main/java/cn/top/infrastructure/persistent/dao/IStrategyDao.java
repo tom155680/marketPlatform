@@ -13,5 +13,16 @@ import java.util.List;
 @Mapper
 public interface IStrategyDao {
 
+    /**
+     * 查询策略集合
+     * @return
+     */
     List<Strategy> queryList();
+
+    /**
+     * 根据ID查询策略
+     * @param strategyId
+     * @return
+     */
+    Strategy queryById(Long strategyId);
 }

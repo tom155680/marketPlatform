@@ -1,6 +1,7 @@
 package cn.top.test.domain;
 
 import cn.top.domain.strategy.service.armory.IStrategyArmory;
+import cn.top.domain.strategy.service.armory.IStrategyDispatch;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -27,11 +28,4 @@ public class StrategyArmoryTest {
         strategyArmory.assembleLotteryStrategy(100001L);
     }
 
-    @Test
-    public void testAssembleRandomAwardVal(){
-        log.info("随机抽奖结果: {}", strategyArmory.getRandomAwardId(100001L));
-        log.info("随机抽奖结果: {}", strategyArmory.getRandomAwardId(100001L));
-        log.info("随机抽奖结果: {}", strategyArmory.getRandomAwardId(100001L));
-
-    }
 }
